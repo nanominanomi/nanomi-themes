@@ -1,0 +1,186 @@
+#### made by nanomi!
+
+# --- some variables ---
+var_text_color: #fff
+var_numbox_shine: 0.15
+var_numbox_shadow: 0.15
+var_numbox_bg: #5562
+
+# --- global stuff ----
+color_main_bg: #1e1f21
+color_device_bg: #282b2d
+color_deviceOffOverlay: #444a
+value_device_corner: 6
+value_device_shine: .2
+value_device_shadow: .5
+
+# the "motion blur" duration of the oscilloscope screen
+value_screen_persistence_time: 0.07
+
+# --- top row ----
+color_logo_text: #fff
+color_label_text: #bbb
+
+color_preset_bg: var_numbox_bg
+color_preset_text: var_text_color
+color_preset_border: #6663
+value_preset_corner: 4
+value_preset_border: 1
+value_preset_bg_shine: var_numbox_shine
+value_preset_bg_shadow: var_numbox_shadow
+
+color_levelMeter_bg: #333
+color_levelMeter_on: #777
+
+# --- highlight colors for each section ---
+color_highlightFilter: #EE88B6
+color_highlightAmp: #C07CCE
+color_highlightSpeaker: #5C56E0
+color_highlightMix: #7545E6
+
+color_powerButton_off: #555
+color_connector: #666
+value_connectorWidth: 1.5
+
+color_screenArea_bg: #000
+
+color_subPreset_text: var_text_color
+color_subPreset_bg: var_numbox_bg
+color_subPreset_border: #6663
+value_subPreset_corner: 4
+value_subPreset_border: 1
+value_subPreset_bg_shine: var_numbox_shine
+value_subPreset_bg_shadow: var_numbox_shadow
+
+color_mapPreset_text: #fff
+color_mapPreset_bg: #5553
+color_mapPreset_border: #ccc5
+value_mapPreset_corner: 4
+value_mapPreset_border: 1
+
+# --- filter device ---
+color_dragFilterGrid: #555
+color_dragFilterLabel: #888
+color_dragFilterDragFill: #0003
+color_dragFilterDragBorder: #5551
+color_dragFilterResponseLine: #5566
+color_dragFilterResponseHandle: #778c
+color_dragFilterResponseFill: #8894
+value_dragFilterResponseFade: 0.2
+value_dragFilterResponseThickness: 1.5
+
+# --- screen/scope ---
+color_scope_bg: #181818
+value_scope_bg_highlight_mix: 0.8
+color_scope_border: #334
+color_scope_grid: #7779
+color_scope_draw_mono: #eeea
+color_scope_draw_left: #EE88B6
+color_scope_draw_right: #7545E6
+color_scope_draw_input: #4448
+color_scope_draw_data: #fffb
+
+color_scopeButton_off_bg: #0005
+color_scopeButton_off_text: #888
+color_scopeButton_on_bg: #333
+color_scopeButton_on_text: #fff
+value_scopeButton_on_corner: 3
+value_scopeButton_off_corner: 3
+
+# --- buttons ---
+color_settings_bg_off: #eee0
+color_settings_icon_off: #eee
+color_settings_border_off: #0000
+color_settings_bg_on: #bbca
+color_settings_icon_on: #000
+color_settings_border_on: #fff0
+value_settings_corner: 4
+
+# --- knobs ---
+color_knob_fill: #424649
+color_knob_edge: #5550
+color_knob_notch: #ccc
+color_knob_track_off: #7775
+color_knob_mod: #f44
+color_knob_label: #aaa
+color_knob_value: #ddd
+color_knob_value_bg: #aaa4
+value_knob_shine: .2
+value_knob_shadow: .1
+value_knob_fade: .03
+value_knob_uppercase: 0
+
+# --- device numboxes ---
+color_numbox_label: #ddd
+color_numbox_value: #ddd
+color_numbox_bg: var_numbox_bg
+color_numbox_border: #6663
+value_numbox_corner: 4
+value_numbox_border: 1
+value_numbox_bg_shine: var_numbox_shine
+value_numbox_bg_shadow: var_numbox_shadow
+
+# --- design cards ---
+color_designLabel_bg: #2220
+color_designLabel_text: #fffd
+
+color_designCard_bg_off: #262628
+color_designCard_bg_on: #303030
+value_designCard_bg_highlight_mix: 0.3
+value_designCard_arrow_highlight_mix: 0.0
+color_designCard_title_on: #fff
+color_designCard_title_off: #fff7
+color_designCard_border: #7775
+value_designCard_border_highlight_mix: 0.8
+color_designCard_link: #fff
+value_designCard_border: 1
+value_designCard_corner: 4
+value_designCard_shine_on: 0.4
+value_designCard_shine_off: 0.05
+
+# --- design card params ---
+color_designParam_bg: #0000
+color_designParam_label: #fffc
+color_designParam_mod: #f44
+color_designParam_value: #fffc
+value_designParam_value_to_bg: -.2
+
+color_amp_meter_bg: #111
+color_amp_meter_on: #aaa
+value_amp_meter_pad: 1
+value_amp_meter_corner: 2
+
+# --- amps map ---
+color_mapAmp_bg: #000000
+color_mapAmp_grid: #ffffff60
+color_mapAmp_land: #4b4b4bff
+color_mapAmp_contour: #242424ff
+color_mapAmp_node: #fff
+color_mapAmp_text: #fff
+color_mapAmp_marker: #fff
+color_mapAmp_connector: #fff
+value_mapAmp_numContours: 12
+color_mapAmp_logo_text: #fff
+
+# --- cabs (speakers) map ---
+color_mapCab_bg: #000
+color_mapCab_grid: #ffffff60
+color_mapCab_land: #4b4b4b
+color_mapCab_contour: #242424
+color_mapCab_node: #fff
+color_mapCab_text: #fff
+color_mapCab_marker: #fff
+color_mapCab_connector: #fff
+value_mapCab_numContours: 12
+color_mapCab_logo_text: #fff
+
+# --- help tooltips ----
+color_helpBox_bg: #333e
+color_helpBox_text: var_text_color
+color_helpBox_border: #555
+value_helpBox_corner: 3
+value_helpBox_border: 1
+value_helpBox_shadow: .5
+
+# --- use this to see the style ids of mouse-over'd controls
+color_styleHelp_text: #a000
