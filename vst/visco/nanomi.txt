@@ -1,0 +1,313 @@
+#### accepted color formats: RGB, RGBA, RRGGBB, RRGGBBAA
+
+# Design System Primitives
+
+# backgrounds
+var_headers_bg: #000000ff
+var_editor_bg: #000
+var_label_color: #111111ff
+var_numbox_bg: #111
+var_numbox_value: #050505ff
+var_numbox_value_inset: #282828
+var_transparent_color: #0000
+
+#text
+var_text_primary: #D6E4F2
+var_text_secondary: #ccc
+var_text_disabled: #686872
+
+#colors
+var_color_accent: #D6E4F2
+var_color_macro: #C7ACFF
+var_color_sound: #C7ACFF
+var_color_modulation: #D6E4F2
+var_color_mix: #F257BA
+
+var_color_shade_light: #505050ff
+var_color_shade_mid: #1f1f1fff
+var_color_shade_dark: #0f0f0fff
+var_color_shade_semitransparent: #3336
+var_color_shade_semitransparent_high: #0005
+
+color_track8: #D6E4F2
+color_track7: #B7D9F0
+color_track6: #9AC3FF
+color_track5: #C17EFF
+color_track4: #9686F4
+color_track3: #C7ACFF
+color_track2: #F97BCA
+color_track1: #F257BA
+
+# borders
+var_border_primary: #555
+var_border_secondary: #333
+var_border_section: 0.7
+var_border_size: 1.0
+
+# grids
+var_grids_primary: #444
+
+# sizes and amounts
+var_corner_radius: 1.0
+var_fade: 5
+var_fade_size: 16
+
+# shader
+var_shader: blob_contours.frag
+
+####################################
+
+### MAIN
+color_logo_bg: var_transparent_color
+color_logo: var_text_primary
+
+color_top_bg: var_headers_bg
+color_top_border: var_border_primary
+value_top_border: var_border_section
+value_top_fade: var_fade
+value_top_fade_size: var_fade_size
+
+color_bottom_bg: var_headers_bg
+color_bottom_border: var_border_primary
+value_bottom_border: var_border_section
+value_bottom_fade: var_fade
+value_bottom_fade_size: var_fade_size
+
+color_settings_bg: var_headers_bg
+color_settings_text: var_headers_bg
+color_text: var_text_primary
+color_label_bg: var_label_color
+color_label_text: var_text_primary
+
+
+###### TOP ROW
+color_topTab_off_text: var_text_disabled
+color_topTab_on_text: var_text_primary
+
+color_preset_bg: var_numbox_bg
+color_preset_text: var_text_primary
+color_preset_border: var_border_secondary
+value_preset_corner: var_corner_radius
+value_preset_border: var_corner_radius
+
+color_dice_bg: var_numbox_bg
+color_dice_dots: var_text_primary
+color_dice_border: var_border_secondary
+value_dice_corner: var_corner_radius
+value_dice_border: var_corner_radius
+
+####### BOTTOM ROW
+color_helpBox_bg: var_transparent_color
+color_helpBox_text: var_text_secondary
+
+color_bottomKnobs_bg: var_transparent_color
+color_bottomRight_bg: var_surface_third
+
+# macro knobs
+color_macroParam_fill: var_headers_bg
+color_macroParam_edge: var_color_shade_light
+color_macroParam_notch: var_text_primary
+color_macroParam_track_on: var_color_macro
+color_macroParam_track_off: var_headers_bg
+color_macroParam_mod: var_color_accent
+color_macroParam_label: var_text_primary
+color_macroParam_value: var_text_primary
+color_macroParam_value_bg: var_headers_bg
+value_macroParam_shine: 0
+value_macroParam_shadow: 10
+value_macroParam_fade: 0
+
+color_bpmParam_value: var_text_primary
+color_bpmLabel_text: var_text_disabled
+
+color_playbutton_off: var_text_primary
+color_playbutton_on: var_text_primary
+
+color_syncbutton_off: var_text_disabled
+color_syncbutton_on: var_text_primary
+
+
+### SOUND VIEW
+
+# tracks
+color_tracks_bg: var_editor_bg
+
+color_track_text: #000d
+color_track_overlay_off: #1139
+color_track_overlay_neutral: #8882
+color_track_overlay_on: var_transparent_color
+value_track_mute_alpha: 0.24
+
+color_wavebox_fill_over: #f0f0f018
+color_wavebox_fill_down: #8884
+color_wavebox_border_over: var_color_shade_semitransparent_high
+value_wavebox_corner: var_corner_radius
+value_wavebox_border: var_border_size
+
+color_wave_fill: var_transparent_color
+color_wave_border: #1119
+color_wave_fill_over: #1114
+color_wave_fill_play: #fff6
+color_wave_border_over: #111b
+value_wave_border: var_border_size
+value_wave_padding: 6
+value_wave_resolution: 12
+
+# mute, solo
+color_mutebutton_off_bg: var_transparent_color
+color_mutebutton_off_border: var_border_secondary
+color_mutebutton_off_text: #0009
+color_mutebutton_on_bg: var_color_shade_semitransparent_high
+color_mutebutton_on_border: var_border_secondary
+color_mutebutton_on_text: var_text_primary
+value_mutebutton_corner: var_corner_radius
+value_mutebutton_border: var_border_size
+
+# the BLOB
+color_blob_bg: var_editor_bg
+color_blob_grid: var_grids_primary
+color_blob_canvas: var_editor_bg
+color_blob_text: var_text_primary
+color_blob_border: var_border_primary
+color_blob_frame: var_border_primary
+value_blob_border: 0
+value_blob_frame: var_border_size
+value_blob_play_swell: 0.1
+value_blob_animate_seconds: 0.15
+value_blob_opacity: 0.1
+
+color_toolBrush_on: #fff9
+color_toolBrush_off: #aaa3
+color_tool_bg_on: var_color_accent
+color_tool_icon_on: var_headers_bg
+color_tool_border_on: var_transparent_color
+color_tool_bg_off: var_transparent_color
+color_tool_icon_off: var_color_shade_light
+color_tool_border_off: var_transparent_color
+value_tool_corner: var_corner_radius
+value_tool_border: 0
+
+color_soundselector_bg: var_numbox_bg
+color_soundselector_text: var_text_primary
+color_soundselector_border: var_border_secondary
+value_soundselector_border: var_border_size
+value_soundselector_corner: var_corner_radius
+
+color_soundfader_line: var_color_accent
+color_soundfader_fill: var_editor_bg
+color_soundfader_mod: var_color_macro
+
+### sound edit (right hand column)
+color_soundCol_label_text: var_text_primary
+color_soundCol_bg: var_headers_bg
+color_soundCol_border: var_border_primary
+color_soundCol_divider: var_transparent_color
+value_soundCol_fade: var_fade
+value_soundCol_fade_size: var_fade_size
+value_soundCol_border: var_border_size
+
+# sound edit knobs
+color_soundParam_mod: var_color_macro
+color_soundParam_label: var_text_secondary
+color_soundParam_value: var_text_primary
+color_soundParam_value_bg: #000
+color_soundParam_track_on: var_numbox_value
+
+# tonal knobs
+color_toneParam_bg: #fff0
+color_toneParam_mod: #fff
+color_toneParam_label: #000
+color_toneParam_value: #000
+color_toneParam_value_bg: #ccc5  
+color_toneParam_track_on: #fffc
+
+color_velocityEditor_bg: #000
+color_velocityEditor_grid: var_grids_primary
+color_velocityEditor_line: var_color_accent
+color_velocityEditor_fill: var_transparent_color
+value_velocityEditor_off_alpha: 0.8
+
+
+### SEQUENCE VIEW
+color_sequenceView_bg: var_editor_bg
+color_sequencer_bg: var_transparent_color
+color_sequencer_step_off: var_color_shade_dark
+color_sequencer_step_on: var_color_shade_mid
+color_sequencer_resizer: var_color_shade_light
+
+color_seqParam_bg: var_label_color
+color_seqParam_label: var_text_primary
+color_seqParam_value: var_text_primary
+color_seqParam_value_bg: var_numbox_bg
+color_seqParam_track_on: var_numbox_value_inset
+color_seqParam_text: var_text_primary
+
+### MODULATE VIEW
+color_modulateView_bg: var_editor_bg
+# mod row params
+color_mod_bg: var_color_shade_dark
+color_mod_value: var_text_primary
+color_mod_line: var_text_primary
+color_mod_fill: var_color_shade_dark
+
+# Envelope & LFO curve editors
+color_envBox_bg: var_color_shade_dark
+color_envTab_on_bg: var_editor_bg
+color_envTab_on_text: var_text_primary
+color_envTab_off_bg: var_transparent_color
+color_envTab_off_text: var_text_primary
+color_envEditor_bg: var_editor_bg
+color_envEditor_grid: var_grids_primary
+color_envEditor_line: var_color_mix
+color_envEditor_fill: var_color_shade_semitransparent
+value_envEditor_off_alpha: 0.8
+
+# Envelope & LFO controls
+color_envParam_label: var_text_primary
+color_envParam_value: var_text_primary
+color_envParam_value_bg: var_numbox_bg
+color_envParam_bg: var_transparent_color
+color_envParam_track_on: var_numbox_value_inset
+value_envParam_valCorner: var_corner_radius
+
+### MIX VIEW
+color_mixView_bg: var_editor_bg
+color_mixParam_bg: var_color_shade_dark
+color_mixParam_value: var_text_primary
+color_mixParam_value_bg: var_numbox_bg
+color_mixParam_track_on: var_color_mix
+color_mixParam_track_off: var_color_shade_dark
+color_mixParam_mod: var_text_primary
+value_mixParam_usePadColor: 1
+
+color_fxLabel_bg: var_transparent_color
+color_fxLabel_text: var_text_primary
+color_fxIndex_bg: var_transparent_color
+color_fxIndex_text: var_text_secondary
+
+color_fxCol_bg: var_color_shade_dark
+color_fx_bg: var_color_shade_dark
+color_fxMeter_bg: var_editor_bg
+color_fxMeter_on: var_color_mix
+color_fxMeter_off: var_color_shade_mid
+
+color_fxToggle_off: var_color_shade_mid
+color_fxToggle_on: var_color_accent
+
+color_fxParam_fill: var_headers_bg
+color_fxParam_notch: var_text_primary
+color_fxParam_track_on: var_color_mix
+color_fxParam_track_off: var_headers_bg
+color_fxParam_label: var_text_primary
+color_fxParam_value: var_text_primary
+color_fxParam_value_bg: var_headers_bg
+color_fxParam_mod: var_text_primary
+value_fxParam_shine: 0
+value_fxParam_shadow: 0
+value_fxParam_fade: 0
+
+color_main_meter_bg: var_color_shade_dark
+color_main_meter_on: var_text_primary
+
+# set this visible to see the style IDs on mouseover
+color_style_help_text: #ff00

@@ -1,10 +1,10 @@
-# preview
+# 🖼️ preview
 
-## how to install?
+## ⬇️ how to install?
 >[!warning] Notice!!
 >the below instruction is base on **bitwig 5.2**, it might not work after bitwig 6!!!
 >if i get my hand on it i might update the instruction!
-### The theme
+### ✨ The theme
 1. download the .jar from the [original github page](https://github.com/Berikai/bitwig-theme-editor) and follow the instruction from there, or you can read my cleanup(? version
 2. back up the ==**bitwig.jar**== file inside`C:\Program Files\Bitwig Studio\bin\`
 3. open the terminal or cmd in ==**admin**==
@@ -22,7 +22,7 @@
 8. choose ==Export Current Theme== can backup the current theme you're using
 9. choose ==Change Theme== and select the theme file you want to change
 10. done~~
-## The color palette
+## 🎨 The color palette
 1. select any track
 2. open the inspector (the i icon in the bottom left)
 3. click the arrow at the color section
